@@ -1,0 +1,33 @@
+{
+  "name": "jest-puppeteer",
+  "version": "0.0.4",
+  "author": "Fumihiro Xue <xfumihiro@gmail.com>",
+  "description": "Headless Chrome (Puppeteer) Environment Wrapper for Jest",
+  "license": "MIT",
+  "bin": {
+    "jest-puppeteer": "./lib/index.js"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "babel src -d lib",
+    "prepublish": "npm run -s build"
+  },
+  "files": [
+    "lib",
+    "puppeteer_environment.js",
+    "result_processor.js"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0"   
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "jest": "21.3.0-beta.2",
+    "puppeteer": "^0.12.0"    
+  }
+}
