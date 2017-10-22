@@ -18,7 +18,7 @@
     "result_processor.js"
   ],
   "dependencies": {
-    "chalk": "^2.1.0"   
+    "chalk": "^2.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -28,6 +28,7 @@
   },
   "peerDependencies": {
     "jest": "21.3.0-beta.2",
-    "puppeteer": "^0.12.0"    
+    "puppeteer": "^0.12.0",
+    "yargs": "^9.0.0"
   }
 }
