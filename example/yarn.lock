@@ -1410,9 +1410,9 @@ jest-mock@21.3.0-beta.2:
   version "21.3.0-beta.2"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-21.3.0-beta.2.tgz#5290e1d9402960b6b276d0beac7f4bf2975fc09b"
 
-jest-puppeteer@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/jest-puppeteer/-/jest-puppeteer-0.0.4.tgz#13f8f0c11426e2cb5258efb33c3fbdd48e8d6582"
+jest-puppeteer@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/jest-puppeteer/-/jest-puppeteer-0.0.6.tgz#2b4607312b8f19bb0ce43419695791d1a7dd47a5"
   dependencies:
     chalk "^2.1.0"
 
