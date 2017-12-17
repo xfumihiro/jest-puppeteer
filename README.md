@@ -1,3 +1,5 @@
+> This repo is deprecated. see [this](http://facebook.github.io/jest/docs/en/puppeteer.html#content) and [this](https://github.com/xfumihiro/jest-puppeteer-example)
+
 # jest-puppeteer
 
 > Headless Chrome (Puppeteer) Environment Wrapper for Jest
